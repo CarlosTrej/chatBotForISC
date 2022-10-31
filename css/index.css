@@ -1,0 +1,33 @@
+.containerIndex{
+    border-radius: 10%;
+    text-align: center;
+    padding: 8em 1em;
+    margin: 2em;
+    background: linear-gradient(180deg, #5062f2 0%, #75acff 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   /*  align-items: center; */
+    border: 15px outset rgb(136, 146, 239);
+    color: #fff;
+ 
+
+
+}
+#onChat{
+
+padding: 0.5em 2em;
+margin: 0 9em;
+border: 1px inset rgb(122, 122, 223);
+border-radius: 3%;
+color: #2d3676;
+font-size: xx-large;
+background: radial-gradient(circle at left, #ffffff , #8f8f8f)
+}
+#onChat:hover{
+    transition: border .30s;
+    border: 9px outset rgb(127, 127, 127);
+}
+#status-options ul{
+    text-align: left;
+}
