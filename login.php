@@ -30,7 +30,9 @@ if (!empty($_POST['username']) && !empty($_POST['pwd'])) {
 			<form method="post">
 				<div class="form-group">
 				<?php if ($loginError ) { ?>
-					<div class="alert alert-warning"><?php echo $loginError; ?></div>
+					<script>
+						alert("Usuario y Contraseña invalida");
+					</script>
 				<?php } ?>
 				</div>
 				<div class="form-group">
@@ -47,9 +49,7 @@ if (!empty($_POST['username']) && !empty($_POST['pwd'])) {
 			<br>
 			<br>
 			<p><b>Usuario</b> : Smith<br><b>Password</b> : 123</p>
-
 		</div>
-		
 	</div>
 </div>	
 <?php include('footer.php');?>

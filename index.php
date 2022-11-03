@@ -120,7 +120,7 @@ include('header.php');
 		<br>
 		<br>
 		<br>
-		<strong><a href="login.php"  style="text-decoration: none; color:#fff; margin: 0 5em;"><h3 id="onChat">Ingresa al chat</h3></a></strong>		
+		<strong><a href="login.php"  style="text-decoration: none; color:#fff;"><h3 id="onChat">Ingresa al chat</h3></a></strong>		
 	<?php } ?>
 	<br>
 	<br>	
