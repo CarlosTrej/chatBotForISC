@@ -2,37 +2,26 @@
 
 #logo:hover{
    border: 3px inset rgb(227, 227, 227);
-  
-
-transition: border .18s;
+   transition: border .18s;
 }
 #logo{
     width: 30%;  
 }
-
 #ulNav{
-
     display: flex;
     justify-content: space-between;
 }
 .containerLogin{
-    
-    border: 0.2px inset rgb(235, 234, 234);
+    border: 0.5px outset rgb(233, 233, 233);
     border-radius: 5%;
-    margin: 9em;
-    padding: 2em;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 3em 18em;
-    box-shadow:
-    8.6px 11.3px 5.7px rgba(0, 0, 0, 0.08),
-    71.6px 94.5px 32.5px rgba(0, 0, 0, 0.051),
-    94px 124px 80px rgba(0, 0, 0, 0.038);
-    
-
+    box-shadow:8.6px 11.3px 5.7px rgba(0, 0, 0, 0.08),71.6px 94.5px 32.5px rgba(0, 0, 0, 0.051),94px 124px 80px rgba(0, 0, 0, 0.038);
+    padding: 2em;
 }
 .row{
     color: #fff;
@@ -45,6 +34,7 @@ transition: border .18s;
     border-radius: 5%;
     width: 100%;
     padding: 2em 0;
+
 }
 
 .btnLogin{
@@ -59,3 +49,30 @@ transition: border .18s;
         transition: border .30s;
         border: 9px outset rgb(127, 127, 127);
     }
+
+@media (max-width: 400px){
+    body{
+   /*      background-color: red; */
+    }   
+    .containerLogin{
+        font-size: medium;
+        margin: 3em 10%;
+    }
+    .row{
+        font-size: medium;
+    }
+}
+    
+@media (min-width: 400px ) and (max-width: 980px){
+    body{
+       /*  background-color: rgb(0, 255, 4); */
+    }   
+    .containerLogin{
+        font-size: medium;
+        margin: 3em 20%;
+    }
+    .row{
+        font-size: medium;
+    }
+}
+    

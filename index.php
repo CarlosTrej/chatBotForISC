@@ -15,7 +15,7 @@ include('header.php');
 </style>
 <?php include('container.php');?>
 <div class="containerIndex">		
-	<h1>Sistema de chat del plan de estudios de  la carrera de ISC</h1>		
+	<h1 style="padding: 0 2em;">Sistema de chat del plan de estudios de  la carrera de ISC</h1>		
 	<br>		
 	<?php if(isset($_SESSION['userid']) && $_SESSION['userid']) { ?> 	
 		<div class="chat">	
@@ -120,7 +120,7 @@ include('header.php');
 		<br>
 		<br>
 		<br>
-		<strong><a href="login.php"  style="text-decoration: none; color:#fff;"><h3 id="onChat">Ingresa al chat</h3></a></strong>		
+		<strong><a href="login.php" id="btnContainer" style="text-decoration: none; color:#fff;"><h3 id="onChat">Ingresa al chat</h3></a></strong>		
 	<?php } ?>
 	<br>
 	<br>	
